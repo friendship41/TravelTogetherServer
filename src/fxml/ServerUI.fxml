@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mini.server.network.controllers.MainController">
+   <children>
+      <TextArea fx:id="taMain" prefHeight="200.0" prefWidth="200.0" style="-fx-effect: dropshadow(three-pass-box, #000000, 15, 0, 4, 4);" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Button fx:id="btnOnOff" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" stylesheets="@../../../TravelTogetherClient/src/css/FontStyles.css" text="Start" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" />
+      <Button fx:id="btnLog" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" stylesheets="@../../../TravelTogetherClient/src/css/FontStyles.css" text="SaveLog" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="130.0" />
+   </children>
+</AnchorPane>
